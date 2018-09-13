@@ -53,8 +53,56 @@
 		</nav><!-- #site-navigation -->
 
 	<div id="searchme">
-	<form id="vasearch" method="get" action="http://search.vaheritage.org/vivaxtf/search" enctype="application/x-www-form-urlencoded">BASIC SEARCH <input type="text" name="text" size="40" value="" style="margin-right: 18px;"> REPOSITORY: <select id="publisher" name="f1-publisher" style="margin-right: 18px;"><option value="">All Repositories</option><option>Alexandria Library</option><option>Averett University</option><option>Bridgewater College</option><option>College of William and Mary</option><option>Colonial Williamsburg</option><option>Fairfax County Public Library</option><option>George Mason University</option><option>Gunston Hall</option><option>Hollins University</option><option>James Madison University</option><option>Library of Virginia</option><option>Longwood University</option><option>Old Dominion University</option><option>Roanoke College</option><option>Roanoke Public Libraries</option><option>Radford University</option><option>Randolph-Macon College</option><option>Thomas Balch Library</option><option>University of Mary Washington</option><option>University of Richmond</option><option>University of Virginia, The Center for Nursing Historical Inquiry</option><option>University of Virginia, Health Sciences Library</option><option>University of Virginia, Law Library</option><option>University of Virginia, Music Library</option><option>University of Virginia, Special Collections Dept.</option><option>Virginia Commonwealth University, Cabell Library</option><option>Virginia Commonwealth University, Tompkins-McCaw Library</option><option>Virginia Historical Society</option><option>Virginia Military Institute</option><option>Virginia Polytechnic Institute and State University</option><option>Virginia State Law Library, Supreme Court of Virginia</option><option>Virginia State University</option><option>Virginia Union University</option><option>Washington and Lee University, Law School</option><option>Washington and Lee University, Leyburn Library</option><option>Wytheville Community College</option><option> test directory </option></select><input type="hidden" id="search_text"><input type="hidden" id="f1-publisher"> <input type="submit" value="Search" id="basicSubmit"> <input type="reset" onclick="location.href=&#39;http://ead.lib.virginia.edu/vivaxtf/search&#39;" value="Clear">
-</form></div>
+		<form id="vasearch" method="get" action="http://search.vaheritage.org/vivaxtf/search" enctype="application/x-www-form-urlencoded">
+			<label for="text">BASIC SEARCH</label>
+			<input type="text" id="text" name="text" size="40" value="" style="margin-right: 18px;" />
+			<label for="publisher"> REPOSITORY</label>
+			<select id="publisher" name="f1-publisher" style="margin-right: 18px;">
+				<option value="">All Repositories</option>
+				<option>Alexandria Library</option>
+				<option>Averett University</option>
+				<option>Bridgewater College</option>
+				<option>College of William and Mary</option>
+				<option>Colonial Williamsburg</option>
+				<option>Fairfax County Public Library</option>
+				<option>George Mason University</option>
+				<option>Gunston Hall</option>
+				<option>Handley Regional Library</option>
+				<option>Hollins University</option>
+				<option>James Madison University</option>
+				<option>Library of Virginia</option>
+				<option>Longwood University</option>
+				<option>Montgomery County Circuit Court</option>
+				<option>Old Dominion University</option>
+				<option>Roanoke College</option>
+				<option>Roanoke Public Libraries</option>
+				<option>Radford University</option>
+				<option>Randolph-Macon College</option>
+				<option>Shenandoah County Library</option>
+				<option>Thomas Balch Library</option>
+				<option>University of Mary Washington</option>
+				<option>University of Richmond</option>
+				<option>University of Virginia, The Center for Nursing Historical Inquiry</option>
+				<option>University of Virginia, Health Sciences Library</option>
+				<option>University of Virginia, Law Library</option>
+				<option>University of Virginia, Music Library</option>
+				<option>University of Virginia, Special Collections Dept.</option>
+				<option>Virginia Commonwealth University, Cabell Library</option>
+				<option>Virginia Commonwealth University, Tompkins-McCaw Library</option>
+				<option>Virginia Historical Society</option>
+				<option>Virginia Military Institute</option>
+				<option>Virginia Museum of Fine Arts</option>
+				<option>Virginia Polytechnic Institute and State University</option>
+				<option>Virginia State Law Library, Supreme Court of Virginia</option>
+				<option>Virginia State University</option>
+				<option>Virginia Union University</option>
+				<option>Washington and Lee University, Law School</option>
+				<option>Washington and Lee University, Leyburn Library</option>
+				<option>Wytheville Community College</option>
+			</select>
+			<input type="submit" value="Search" id="basicSubmit" />
+		</form>
+	</div>
 	
 
 	<div id="main" class="wrapper">
